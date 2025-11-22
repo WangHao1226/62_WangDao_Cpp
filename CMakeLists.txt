@@ -1,0 +1,66 @@
+cmake_minimum_required(VERSION 3.22)
+project(1_c)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(CDay02)
+include_directories(scanner)
+
+add_executable(1_c
+        CDay02/main.cpp
+        CDay02/test.cpp
+        CDay02/test.h
+        CDay03/test_a.cpp
+        CDay03/test_b.cpp
+        CDay03/test_c.cpp
+        CDay03/test_d.cpp
+        CDay03/test_e.cpp
+        CDay04/test_a.cpp
+        CDay04/test_b.cpp
+        CDay05/test_a.cpp
+        CDay05/test_b.cpp
+        CDay05/test_c.cpp
+        CDay05/test_d.cpp
+        CDay05/test_e.cpp
+        CDay05/test_f.cpp
+        CDay06/test_a.cpp
+        CDay06/test_b.cpp
+        CDay07/test_a.cpp
+        CDay07/test_b.cpp
+        CDay07/test_c.cpp
+        CDay07/test_d.cpp
+        CDay07/test_e.cpp
+        CDay07/test_f.cpp
+        CDay07/test_g.cpp
+        CDay08/test_a.cpp
+        CDay08/test_b.cpp
+        CDay08/test_c.cpp
+        CDay08/test_d.cpp
+        CDay08/test_e.cpp
+        CDay08/test_f.cpp
+        CDay08/test_g.cpp
+        CDay09/test_a.cpp
+        CDay09/test_b.cpp
+        CDay09/test_c.cpp
+        CDay09/test_d.cpp
+        CDay09/test_e.cpp
+        CDay09/test_f.cpp
+        CDay09/test_g.cpp
+        CDay10/test_a.cpp
+        CDay10/test_b.cpp
+        CDay10/test_c.cpp
+        CDay10/test_d.cpp
+        CDay11/test_a.cpp
+        CDay11/test_b.cpp
+        CDay11/test_c.cpp
+        CDay11/test_d.cpp
+        CDay13/test_a.cpp
+        CDay13/test_b.cpp
+        CDay14/test_a.cpp
+        CDay14/test_b.cpp
+        CDay14/test_c.cpp
+        CDay15/test_a.cpp
+        CDay15/test_b.cpp
+        scanner/main.c
+        scanner/scanner.c
+        scanner/scanner.h)
