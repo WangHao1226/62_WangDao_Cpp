@@ -1,3 +1,0 @@
-E:/WangDao/1_c/cmake-build-debug/CMakeFiles/1_c.dir
-E:/WangDao/1_c/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/WangDao/1_c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
